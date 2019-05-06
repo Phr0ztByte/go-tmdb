@@ -241,7 +241,7 @@ type TvTranslations struct {
 		Name        string `json:"name"`
 		EnglishName string `json:"english_name"`
 		Data        struct {
-			Title    string `json:"title,omitempty"`
+			Name    string `json:"name,omitempty"`
 			Overview string `json:"overview,omitempty"`
 			Homepage string `json:"homepage,omitempty"`
 		} `json:"data"`
